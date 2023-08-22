@@ -309,10 +309,17 @@ address                         { font-style: italic; }
 }
 /* Main Header */
 .ritekhela-main-header {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(7, 6, 6, 0.1); /* Set your desired background color */
+    z-index: 1000; /* Adjust as needed to prevent overlapping */
+    /* Add other styling properties as needed */
     float: left;
     width: 100%;
     padding: 0px 0px;
-    border-top: 1px solid rgba(255,255,255,0.10);
+    border-top: 1px solid rgba(177, 114, 114, 0.1);
 }
 .ritekhela-logo {
     float: left;
